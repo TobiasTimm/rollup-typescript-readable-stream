@@ -1,7 +1,3 @@
-import { createConnection } from "mysql";
+import "readable-stream";
 
-try {
-  createConnection("This will not work");
-} catch (error) {
-  console.error(error);
-}
+console.log("test");
